@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sons Of Altis | Roleplay FR</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <div id="flou_fond"></div>
+            <div id="top_header">
+                <img src="../img/logo_SonsOfAltis.png" id="img_top" />
+                <p id="slogan_top_first">Sons Of Altis</p>
+                <b><p id="slogan_top">Serveur Roleplay Français</p></b>
+            </div>
+
+            <div id="menu">
+                <ul><b>
+                    <li><a id="bouton_accueil" href="index.html">Accueil</a></li>
+                    <li><a id="bouton_actualités" href="../actualites/actualites.html">Actualités</a></li>
+                    <li><a id="bouton_presentation" href="#presentation">Présentation</a></li>
+                    <li><a id="bouton_reglement" href="#reglement">Règlement</a></li>
+                    <li><a id="bouton_teamspeak" href="#teamspeak">TeamSpeak</a></li>
+                </b></ul>
+            </div>
+
+            <div id="redir_forum">
+                <p id="redir_forum_p">Pour accéder à notre forum communautaire :</p>
+                <p><a id="bouton_forum" href="#achanger">Forum</a></p>
+            </div>
+
+            <div id="flou_staff"></div>
+            <div id="flou_dev"></div>
+
+
+        </header>
+
+        <div id="corps_site">
+            <center>
+            <div id="presentation">
+                <p id="titre_qsn">Qui sommes-nous ?</p>
+                <p class="separation"><b>─────────────────────</b></p>
+                <p>[presentation à rédiger]</p>
+				
+				<div id="groupe_presentation">
+                    <center><table>
+                        <tr>
+                            <td><img  id="logo_staff" src="../img/logo_staff.png" /><p id="titre_staff">Staff</p></td>
+                            <td><img  id="logo_dev" src="../img/logo_dev2.png" /><p id="titre_dev">Développement</p></td>
+                        </tr>
+
+                        <tr>
+                            <td>Nous possédons un staff à votre écoute. N'hésitez pas à les contacter sur notre TeamSpeak ou sur notre Forum dans les rubriques adéquates.</td>
+                            <td>Nos équipes de développement serveur et web sont présentes pour essayer de vous proposer, au fur et à mesure des mises à jour, une expérience de jeu plus incroyable chaque jour.</td>
+                        </tr>
+                    </table></center>
+				</div>
+            </div>
+            </center>
+
+            <div id="reglement">
+                <p id="titre_reglement">Notre règlement</p>
+                <p class="separation"><b>─────────────────────</b></p>
+                <div id="corps_reglement"><center>
+                <p>Pour le bon fonctionnement du serveur et le plus grand bonheur de notre communauté nous vous demandons de prendre les quelques petites minutes nécessaire<br /> à la lecture et la compréhension de notre
+                règlement. La bonne compréhension de ces règles permettent aux joueurs de pouvoir vivre une expérience agréable sur cette île.<br /> Merci et bon jeu !</p></div>
+                <p><a id="bouton_reglement_corps" href="../reglement/reglement.html">Règlement</a></p></center>
+            </div>
+
+            <div id="teamspeak">
+                <p id="titre_teamspeak">TeamSpeak 3</p>
+                <p class="separation"><b>─────────────────────</b></p>
+                <p id="corps_ts">Vous souhaitez communiquer avec notre équipe ou simplement découvrir notre communauté ? Venez nous rendre visite sur notre TeamSpeak 3 :</p>
+                <a id="bouton_ts" href="ts3server://srv.xanarchy.fr:10034">TeamSpeak</a>
+            </div>
+        </div>
+
+        <div id="footer_flou"></div>
+        <div id="footer">
+            <p id="titre_footer"><b>Sons of Altis</b></h3>
+            <p>© Sons of Altis</p>
+            <div id="gametracker"><a href="https://www.gametracker.com/server_info/37.187.190.250:2302/" target="_blank"><img src="http://cache.gametracker.com/server_info/37.187.190.250:2302/b_560_95_1.png" border="0" width="560" height="95" alt=""/></a></div>
+            <p id="by">Réalisé par Marius Falone</p>
+        </div>
+    </body>
+</html>
