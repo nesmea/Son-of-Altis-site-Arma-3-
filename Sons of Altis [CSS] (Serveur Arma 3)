@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'anarchie';
+    src: url('../polices/anarchie/anarchistic-webfont.eot');
+    src: url('../polices/anarchie/anarchistic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../polices/anarchie/anarchistic-webfont.woff2') format('woff2'),
+         url('../polices/anarchie/anarchistic-webfont.woff') format('woff'),
+         url('../polices/anarchie/anarchistic-webfont.ttf') format('truetype'),
+         url('../polices/anarchie/anarchistic-webfont.svg#anarchisticno_leaders..') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robaga';
+    src: url('../polices/robaga/robaga_rounded_black-webfont.eot');
+    src: url('../polices/robaga/robaga_rounded_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../polices/robaga/robaga_rounded_black-webfont.woff2') format('woff2'),
+         url('../polices/robaga/robaga_rounded_black-webfont.woff') format('woff'),
+         url('../polices/robaga/robaga_rounded_black-webfont.ttf') format('truetype'),
+         url('../polices/robaga/robaga_rounded_black-webfont.svg#robaga_rounded_blackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'klapjo';
+    src: url('../polices/klapjo/klapjo_regular-webfont.eot');
+    src: url('../polices/klapjo/klapjo_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../polices/klapjo/klapjo_regular-webfont.woff2') format('woff2'),
+         url('../polices/klapjo/klapjo_regular-webfont.woff') format('woff'),
+         url('../polices/klapjo/klapjo_regular-webfont.ttf') format('truetype'),
+         url('../polices/klapjo/klapjo_regular-webfont.svg#klapjoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'santor';
+    src: url('../polices/santor/santor_1.002-webfont.eot');
+    src: url('../polices/santor/santor_1.002-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../polices/santor/santor_1.002-webfont.woff2') format('woff2'),
+         url('../polices/santor/santor_1.002-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    padding:0;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/background.jpg');
+    background-attachment: fixed;
+}
+
+#top_header{
+    height: 50%;
+    width: 100%;
+    z-index: 10;
+    padding-top: 1%;
+    text-align: center;
+}
+
+#img_top{
+    width: 400px;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+#slogan_top_first{
+    font-family: 'klapjo', Arial;
+    color: white;
+    font-size: 50px;
+}
+
+#slogan_top{
+    font-family: 'santor', Arial;
+    color: white;
+    font-size: 20px;
+}
+
+#menu{
+    margin-top: 150px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+#menu ul, li{
+    list-style: none;
+    display: inline;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    font-family: 'santor', Arial;
+}
+
+#menu a:hover{
+    background-color: rgb(238, 174, 174);
+    color: black;
+}
+
+#redir_forum{
+    width: 100%;
+    height: 150px;
+    z-index: 9;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#redir_forum_p{
+    font-family: 'santor', Arial;
+    color: white;
+    font-size: 25px;
+}
+
+#bouton_forum{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(202, 124, 34);
+    padding: 12px;
+    border-radius: 10px;
+    font-family: 'santor', Arial;
+    font-size: 20px;
+}
+
+#redir_forum a:hover{
+    background-color: rgb(155, 155, 143);
+    color:black;
+}
+
+
+#flou_fond{
+    z-index: -3;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0.3;
+    position: absolute;
+    height: 2970px;
+    width: 100%;
+}
+
+#presentation{
+    text-align: center;
+    margin-top:100px;
+    background-color: rgba(26, 26, 26, 0.4);
+    height: 650px;
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+#groupe_presentation{
+    text-align: center;
+    display: inline;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 200px 20px;
+    background-color: rgba(26, 26, 26, 0.2);
+    height: 300px;
+    padding-bottom: 40px;
+}
+
+#presentation td{
+    font-family: 'santor', Arial;
+    width: 430px;
+    color: white;
+}
+
+#logo_dev{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    margin-top: 27px;
+}
+
+#logo_staff{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    margin-top: 27px;
+}
+
+#titre_dev{
+    margin-left: 50px;
+    color: white;
+    font-size: 25px;
+}
+
+#titre_staff{
+    margin-left: 50px;
+    color: white;
+    font-size: 25px;
+}
+
+#corps_site p, a{
+    font-family: 'santor', Arial;
+    color: white;
+}
+
+#titre_qsn{
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.separation{
+    font-size: 25px;
+    text-decoration: tomato;
+    font-family:'klapjo', Arial;
+    opacity: 0.2;
+}
+
+#reglement{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+#titre_reglement{
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+#corps_reglement{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#reglement a{
+    text-decoration: none;
+    background-color: rgb(202, 124, 34);
+    padding: 12px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+#reglement a:hover{
+    background-color: rgb(155, 155, 143);
+    color:black;
+}
+
+#bouton_reglement_corps{
+    margin-top: 50px;
+}
+
+#teamspeak{
+    width: 100%;
+    height: 380px;
+    background-color: rgba(189, 153, 112, 0.651);
+    text-align: center;
+}
+
+#titre_teamspeak{
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+#teamspeak a{
+    text-decoration: none;
+    background-color: rgb(202, 124, 34);
+    padding: 12px;
+    border-radius: 10px;
+}
+
+#teamspeak a:hover{
+    background-color: rgb(155, 155, 143);
+    color:black;
+}
+
+#corps_ts{
+    margin-bottom: 50px;
+}
+
+#footer{
+    width: 100%;
+    height: 290px;
+    margin:0;
+    text-align: center;
+    color: white;
+    font-family: 'santor', Arial;
+    background-color: rgba(19, 18, 17, 0.644);
+}
+
+#titre_footer{
+    font-size: 30px;
+}
+
+#by{
+    font-size: 12px;
+    padding-top: 25px;
+}
+
+#footer_flou{
+    position:absolute;
+    z-index: -1;
+    background-color: rgba(19, 18, 17, 0.644);
+    height:30px;
+    width: 100%;
+}
